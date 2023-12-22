@@ -5,7 +5,7 @@ function App() {
     <>
       <div className="flex justify-center bg-[#242424]">
         <div className="min-h-screen w-3/5 flex flex-col text-white">
-          <nav className="p-6 pr-10 font-semibold text-xl flex justify-center md:text-2xl lg:justify-end">
+          <nav className="p-6 pr-10 font-semibold text-lg flex justify-center md:text-xl lg:justify-end">
             <ul className="flex space-x-4">
               <li className="p-4">
                 <a
@@ -44,7 +44,7 @@ function App() {
               </li>
               <li className="p-4">
                 <a
-                  href="/Richard_Trinh_resume.pdf"
+                  href="https://rtrinh760.github.io/portfolio/Richard_Trinh_resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2"
@@ -64,11 +64,11 @@ function App() {
             </ul>
           </nav>
           <div className="flex flex-col justify-center md:justify-start lg:ml-20 mt-10">
-            <h1 className="font-bold text-3xl md:text-4xl">
+            <h1 className="font-bold text-2xl md:text-3xl">
               Hi, I'm Richard Trinh
-              <span className="text-5xl align-middle"> 🚀</span>
+              <span className="text-4xl align-middle"> 🚀</span>
             </h1>
-            <div className="text-2xl py-8 space-y-5">
+            <div className="text-xl py-8 space-y-5">
               <p>
                 I'm a 2nd year Computer Science student at Colby College, where
                 I'm currently working as a Teaching Assistant for the course
@@ -87,8 +87,8 @@ function App() {
                 features for enterprise applications.
               </p>
             </div>
-            <h2 className="font-bold text-2xl md:text-3xl">Projects</h2>
-            <div className="text-2xl py-8 space-y-5">
+            <h2 className="font-bold text-xl md:text-2xl">Projects</h2>
+            <div className="text-xl py-8 space-y-5">
               <div>
                 <p>
                   <a
