@@ -75,7 +75,7 @@ function App() {
                 CS231.
               </p>
               <p>
-                Previously, I have interned at{" "}
+                Previously, I interned at{" "}
                 <a
                   href="https://www.terracon.com/"
                   target="_blank"
@@ -89,105 +89,77 @@ function App() {
             </div>
             <h2 className="font-bold text-2xl md:text-3xl">Projects</h2>
             <div className="text-2xl py-8 space-y-5">
-            <div className="flex flex-row space-x-2">
-                <a
-                  href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2"
-                >
-                  <p>Pathfinding Visualizer</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
+              <div>
+                <p>
+                  <a
+                    href="https://github.com/rtrinh760/scholar_ninja"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-1 decoration-indigo-400 decoration-2"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                </a>
-                <p>- Grid simulation of various algorithms like DFS and BFS</p>
+                    Scholar Ninja
+                  </a>
+                  {" - "}
+                  Personalized scholarships finder (React Native, Flask,
+                  Firebase)
+                </p>
               </div>
-              <div className="flex flex-row space-x-2">
-                <a
-                  href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2"
-                >
-                  <p>Pathfinding Visualizer</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
+              <div>
+                <p>
+                  <a
+                    href="https://github.com/rtrinh760/scholarai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-1 decoration-indigo-400 decoration-2"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                </a>
-                <p>- Grid simulation of various algorithms like DFS and BFS</p>
+                    ScholarAI
+                  </a>
+                  {" - "}
+                  PDF document search (Next.js, React, TypeScript, PostgreSQL)
+                </p>
               </div>
-              <div className="flex flex-row space-x-2">
-                <a
-                  href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2"
-                >
-                  <p>Pathfinding Visualizer</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
+              <div>
+                <p>
+                  <a
+                    href="https://github.com/rtrinh760/atoll-segmentation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-1 decoration-indigo-400 decoration-2"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                </a>
-                <p>- Grid simulation of various algorithms like DFS and BFS</p>
+                    Atoll Segmentation CV Model
+                  </a>
+                  {" - "}
+                  Atoll image annotator (OpenCV, TensorFlow, Keras)
+                </p>
               </div>
-              <div className="flex flex-row space-x-2">
-                <a
-                  href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2"
-                >
-                  <p>Pathfinding Visualizer</p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
+              <div>
+                <p>
+                  <a
+                    href="https://github.com/rtrinh760/pycoMouse"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-1 decoration-indigo-400 decoration-2"
                   >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                    />
-                  </svg>
-                </a>
-                <p>- Grid simulation of various algorithms like DFS and BFS</p>
+                    Micromouse
+                  </a>
+                  {" - "}
+                  Maze-Traversing Robotic Mouse (Python, CircuitPython)
+                </p>
+              </div>
+              <div>
+                <p>
+                  <a
+                    href="https://rtrinh760.github.io/pathfinding-visualizer/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                  >
+                    Pathfinding Visualizer
+                  </a>
+                  {" - "}
+                  Grid simulation of various algorithms like DFS and BFS (React,
+                  TypeScript)
+                </p>
               </div>
             </div>
           </div>
