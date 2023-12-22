@@ -5,7 +5,7 @@ function App() {
     <>
       <div className="flex justify-center bg-[#242424]">
         <div className="min-h-screen w-3/5 flex flex-col text-white">
-          <nav className="p-6 pr-10 font-semibold text-lg flex justify-center md:text-xl lg:justify-end">
+          <nav className="p-6 pr-10 font-semibold text-base flex justify-center sm:text-lg md:text-xl lg:justify-end">
             <ul className="flex space-x-4">
               <li className="p-4">
                 <a
