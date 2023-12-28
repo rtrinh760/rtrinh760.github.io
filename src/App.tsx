@@ -72,8 +72,7 @@ function App() {
               <div className="text-xl py-8 space-y-5">
                 <p>
                   I'm a 2nd year Computer Science student at Colby College,
-                  where I'm currently working as a Teaching Assistant for the
-                  course CS231.
+                  where I'm currently working as a Teaching Assistant for Data Structures and Algorithms.
                 </p>
                 <p>
                   Previously, I interned at{" "}
@@ -158,8 +157,7 @@ function App() {
                       Pathfinding Visualizer
                     </a>
                     {" - "}
-                    Grid simulation of various algorithms like DFS and BFS
-                    (React, TypeScript)
+                    Grid simulation of various traversal algorithms (React, TypeScript)
                   </p>
                 </div>
               </div>
