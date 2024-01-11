@@ -107,6 +107,20 @@ function App() {
                 <div>
                   <p>
                     <a
+                      href="https://github.com/rtrinh760/vidsnap"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                    >
+                      Vidsnap
+                    </a>
+                    {" - "}
+                    AI video summarizer (Next.js, React, TypeScript, YouTube API)
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <a
                       href="https://github.com/rtrinh760/scholarai"
                       target="_blank"
                       rel="noopener noreferrer"
