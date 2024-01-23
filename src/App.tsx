@@ -67,7 +67,7 @@ function App() {
             <div className="flex flex-col justify-center md:justify-start lg:ml-20 mt-5">
               <h1 className="font-bold text-2xl md:text-3xl">
                 Hi, I'm Richard Trinh
-                <span className="md:text-4xl align-middle"> 🚀</span>
+                <span className="md:text-4xl align-middle"> 👋</span>
               </h1>
               <div className="text-xl py-8 space-y-5">
                 <p>
