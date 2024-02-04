@@ -143,7 +143,7 @@ function App() {
                       Atoll Segmentation CV Model
                     </a>
                     {" - "}
-                    Atoll image annotator (OpenCV, TensorFlow, Keras)
+                    Coral reef annotator (OpenCV, TensorFlow, Keras)
                   </p>
                 </div>
                 <div>
