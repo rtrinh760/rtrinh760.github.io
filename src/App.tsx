@@ -65,37 +65,49 @@ function App() {
               </ul>
             </nav>
             <div className="flex flex-col justify-center md:justify-start lg:ml-20 mt-5">
-              <h1 className="font-bold text-2xl md:text-3xl">
-                Hi, I'm Richard Trinh
-                <span className="md:text-4xl align-middle"> 👋</span>
-              </h1>
-              <div className="text-xl py-8 space-y-5">
+              <h1 className="font-bold text-3xl md:text-4xl">Richard Trinh</h1>
+              <h2 className="text-xl md:text-2xl">
+                <span className="highlight highlight-[#636363]">
+                  CS Student @ Colby College
+                </span>
+              </h2>
+              <p className="mt-6 text-xl">
+                Developer/learner/robot-enthusiast looking to bring efficient experiences to the web.
+              </p>
+              <h2 className="font-bold py-6 text-xl md:text-2xl">Experience</h2>
+              <div className="text-xl space-y-4">
                 <p>
-                  I'm a 2nd year Computer Science student at Colby College,
-                  where I'm currently working as a Teaching Assistant for Data Structures and Algorithms.
-                </p>
-                <p>
-                  Previously, I interned at{" "}
                   <a
                     href="https://www.terracon.com/"
                     target="_blank"
-                    className="underline underline-offset-1 decoration-indigo-700 decoration-4"
+                    className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-700 hover:decoration-white decoration-2 transform"
                   >
                     Terracon
-                  </a>{" "}
-                  where I've developed data automation software and frontend
-                  features for enterprise applications.
+                  </a>
+                  {" - "}
+                  Software Engineer Intern (Summer 2023)
+                </p>
+                <p>
+                  <a
+                    href="https://www.cs.colby.edu/"
+                    target="_blank"
+                    className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-700 hover:decoration-white decoration-2 transform"
+                  >
+                    Colby College
+                  </a>
+                  {" - "}
+                  CS Teaching Assistant (Fall 2023 - Present)
                 </p>
               </div>
-              <h2 className="font-bold text-xl md:text-2xl">Projects</h2>
-              <div className="text-xl py-8 space-y-5">
+              <h2 className="font-bold py-6 text-xl md:text-2xl">Projects</h2>
+              <div className="text-xl space-y-4 pb-6">
                 <div>
                   <p>
                     <a
                       href="https://github.com/rtrinh760/scholar_ninja"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       Scholar Ninja
                     </a>
@@ -110,12 +122,13 @@ function App() {
                       href="https://github.com/rtrinh760/vidsnap"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       Vidsnap
                     </a>
                     {" - "}
-                    AI video summarizer (Next.js, React, TypeScript, YouTube API)
+                    AI video summarizer (Next.js, React, TypeScript, YouTube
+                    API)
                   </p>
                 </div>
                 <div>
@@ -124,7 +137,7 @@ function App() {
                       href="https://github.com/rtrinh760/scholarai"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       ScholarAI
                     </a>
@@ -138,7 +151,7 @@ function App() {
                       href="https://github.com/rtrinh760/atoll-segmentation"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       Atoll Segmentation CV Model
                     </a>
@@ -152,7 +165,7 @@ function App() {
                       href="https://github.com/rtrinh760/pycoMouse"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       Micromouse
                     </a>
@@ -166,12 +179,13 @@ function App() {
                       href="https://rtrinh760.github.io/pathfinding-visualizer/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline underline-offset-1 decoration-indigo-400 decoration-2"
+                      className="transition duration-200 ease-in-out underline underline-offset-1 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
                       Pathfinding Visualizer
                     </a>
                     {" - "}
-                    Grid simulation of various traversal algorithms (React, TypeScript)
+                    Grid simulation of various traversal algorithms (React,
+                    TypeScript)
                   </p>
                 </div>
               </div>
