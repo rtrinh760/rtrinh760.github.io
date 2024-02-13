@@ -188,6 +188,20 @@ function App() {
                     TypeScript)
                   </p>
                 </div>
+                <div>
+                  <p>
+                    <a
+                      href="https://github.com/rtrinh760/sudoku-solver"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="transition duration-200 ease-in-out underline underline-offset-2 decoration-indigo-400 hover:decoration-white decoration-2 transform"
+                    >
+                      Sudoku Solver
+                    </a>
+                    {" - "}
+                    Simulation of backtracking algorithms via Sudoku Solving (Java)
+                  </p>
+                </div>
               </div>
             </div>
           </div>
