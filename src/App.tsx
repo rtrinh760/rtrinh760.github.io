@@ -100,7 +100,7 @@ function App() {
                 </p>
               </div>
               <h2 className="font-bold py-6 text-xl md:text-2xl">Projects</h2>
-              <div className="text-xl space-y-4 pb-6">
+              <div className="text-xl space-y-4 pb-10">
                 <div>
                   <p>
                     <a
