@@ -72,7 +72,8 @@ function App() {
                 </span>
               </h2>
               <p className="mt-6 text-xl">
-                Developer/learner/robot-enthusiast looking to bring efficient experiences to the web.
+                Developer/learner/robot-enthusiast looking to bring efficient
+                experiences to the web.
               </p>
               <h2 className="font-bold py-6 text-xl md:text-2xl">Experience</h2>
               <div className="text-xl space-y-4">
@@ -153,10 +154,10 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 ease-in-out underline underline-offset-2 decoration-indigo-400 hover:decoration-white decoration-2 transform"
                     >
-                      Atoll Segmentation CV Model
+                      Coral Reef Annotator
                     </a>
                     {" - "}
-                    Coral reef annotator (OpenCV, TensorFlow, Keras)
+                    Atoll segmentation ML model (OpenCV, TensorFlow, Keras)
                   </p>
                 </div>
                 <div>
@@ -170,7 +171,7 @@ function App() {
                       Micromouse
                     </a>
                     {" - "}
-                    Maze-Traversing Robotic Mouse (Python, CircuitPython)
+                    Maze-traversing robotic mouse (Python, CircuitPython)
                   </p>
                 </div>
                 <div>
@@ -199,7 +200,8 @@ function App() {
                       Sudoku Solver
                     </a>
                     {" - "}
-                    Simulation of backtracking algorithms via Sudoku Solving (Java)
+                    Simulation of backtracking algorithms via Sudoku Solving
+                    (Java)
                   </p>
                 </div>
               </div>
