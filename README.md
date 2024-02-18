@@ -1,1 +1,5 @@
-# https://rtrinh760.github.io/
+# Portfolio
+
+Static personal website made from scratch with React, Vite, and TailwindCSS.
+
+
