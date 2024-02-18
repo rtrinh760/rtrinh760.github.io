@@ -45,7 +45,7 @@ function App() {
                 </li>
                 <li className="px-1 py-4 sm:px-4">
                   <a
-                    href="https://rtrinh760.github.io/portfolio/Richard_Trinh_resume.pdf"
+                    href="https://rtrinh760.github.io/Richard_Trinh_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-2 decoration-2"
