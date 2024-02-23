@@ -113,7 +113,7 @@ function App() {
                   </a>
                 </p>
               </div>
-              <h2 className="font-bold py-3 mb-3 text-xl md:text-2xl border-b-2 border-double">
+              <h2 className="font-bold py-3 mb-3 mt-4 text-xl md:text-2xl border-b-2 border-double">
                 Projects
               </h2>
               <div className="text-xl space-y-4 pb-10">
