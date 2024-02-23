@@ -91,7 +91,7 @@ function App() {
                         className="rounded inline-block mr-2"
                         width={24}
                         height={24}
-                        src="../public/terracon.png"
+                        src="./assets/terracon.png"
                       />
                     </span>
                     Terracon - Software Engineer Intern (Summer 2023)
@@ -107,7 +107,7 @@ function App() {
                       className="inline-block mr-2"
                       width={24}
                       height={24}
-                      src="../public/colby.png"
+                      src="./assets/colby.png"
                     />
                     Colby College - CS Teaching Assistant (Fall 2023 - Present)
                   </a>
