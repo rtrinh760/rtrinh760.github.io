@@ -1,4 +1,5 @@
 import "./App.css";
+import { Icon } from "@iconify/react";
 
 function App() {
   return (
@@ -71,11 +72,13 @@ function App() {
                   CS Student @ Colby College
                 </span>
               </h2>
-              <p className="mt-6 text-xl">
+              <p className="my-4 text-xl">
                 Developer/learner/robot-enthusiast looking to bring efficient
                 experiences to the web.
               </p>
-              <h2 className="font-bold py-6 text-xl md:text-2xl">Experience</h2>
+              <h2 className="font-bold py-3 mb-3 text-xl md:text-2xl border-b-2 border-double">
+                Experience
+              </h2>
               <div className="text-xl space-y-4">
                 <p>
                   <a
@@ -83,6 +86,14 @@ function App() {
                     target="_blank"
                     className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                   >
+                    <span>
+                      <img
+                        className="rounded inline-block mr-2"
+                        width={24}
+                        height={24}
+                        src="../public/terracon.png"
+                      />
+                    </span>
                     Terracon - Software Engineer Intern (Summer 2023)
                   </a>
                 </p>
@@ -92,11 +103,19 @@ function App() {
                     target="_blank"
                     className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                   >
+                    <img
+                      className="inline-block mr-2"
+                      width={24}
+                      height={24}
+                      src="../public/colby.png"
+                    />
                     Colby College - CS Teaching Assistant (Fall 2023 - Present)
                   </a>
                 </p>
               </div>
-              <h2 className="font-bold py-6 text-xl md:text-2xl">Projects</h2>
+              <h2 className="font-bold py-3 mb-3 text-xl md:text-2xl border-b-2 border-double">
+                Projects
+              </h2>
               <div className="text-xl space-y-4 pb-10">
                 <div>
                   <p>
@@ -106,9 +125,29 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Scholar Ninja - Personalized scholarships finder (React
-                      Native, Flask, Firebase)
+                      Scholar Ninja - Personalized scholarships finder app
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:react-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:flask-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white" }}
+                      />
+                      <Icon
+                        icon="logos:firebase"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -119,9 +158,29 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Vidsnap - AI video summarizer (Next.js, React, TypeScript,
-                      YouTube API)
+                      Vidsnap - AI video summarizer
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:nextjs-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:react-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white" }}
+                      />
+                      <Icon
+                        icon="skill-icons:typescript"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -132,9 +191,35 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      ScholarAI - PDF document search (Next.js, React,
-                      TypeScript, PostgreSQL)
+                      ScholarAI - PDF document search
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:nextjs-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:react-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white" }}
+                      />
+                      <Icon
+                        icon="skill-icons:typescript"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:postgresql-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -146,8 +231,35 @@ function App() {
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
                       Coral Reef Annotator - Atoll segmentation ML model
-                      (OpenCV, TensorFlow, Keras)
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:opencv-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:tensorflow-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white" }}
+                      />
+                      <Icon
+                        icon="devicon:pandas"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white " }}
+                      />
+                      <Icon
+                        icon="skill-icons:python-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -158,9 +270,22 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Micromouse - Maze-traversing robotic mouse (Python,
-                      CircuitPython)
+                      Micromouse - Maze-traversing robotic mouse
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:raspberrypi-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:python-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -171,9 +296,24 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Pathfinding Visualizer - Grid simulation of various
-                      traversal algorithms (React, TypeScript)
+                      Pathfinding Visualizer - Grid simulation of traversal
+                      algorithms
                     </a>
+                    <span className="mt-1 flex flex-row justify-start space-x-2">
+                      <Icon
+                        icon="skill-icons:react-dark"
+                        inline={true}
+                        width={24}
+                        height={24}
+                      />
+                      <Icon
+                        icon="skill-icons:typescript"
+                        inline={true}
+                        width={24}
+                        height={24}
+                        style={{ color: "white" }}
+                      />
+                    </span>
                   </p>
                 </div>
                 <div>
@@ -184,8 +324,15 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Sudoku Solver - Simulation of backtracking algorithms via
-                      Sudoku Solving (Java)
+                      Sudoku Solver - Simulation of backtracking algorithms
+                      <span className="mt-1 flex flex-row justify-start space-x-2">
+                        <Icon
+                          icon="skill-icons:java-dark"
+                          inline={true}
+                          width={24}
+                          height={24}
+                        />
+                      </span>
                     </a>
                   </p>
                 </div>
