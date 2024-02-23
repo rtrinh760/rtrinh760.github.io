@@ -1,5 +1,7 @@
 import "./App.css";
 import { Icon } from "@iconify/react";
+import ColbyImg from "./assets/colby.png"
+import TerraconImg from "./assets/terracon.png"
 
 function App() {
   return (
@@ -91,7 +93,7 @@ function App() {
                         className="rounded inline-block mr-2"
                         width={24}
                         height={24}
-                        src="./assets/terracon.png"
+                        src={TerraconImg}
                       />
                     </span>
                     Terracon - Software Engineer Intern (Summer 2023)
@@ -107,7 +109,7 @@ function App() {
                       className="inline-block mr-2"
                       width={24}
                       height={24}
-                      src="./assets/colby.png"
+                      src={ColbyImg}
                     />
                     Colby College - CS Teaching Assistant (Fall 2023 - Present)
                   </a>
