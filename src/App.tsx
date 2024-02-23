@@ -125,7 +125,7 @@ function App() {
                       rel="noopener noreferrer"
                       className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                     >
-                      Scholar Ninja - Personalized scholarships finder app
+                      Scholar Ninja - Personalized scholarship finder app
                     </a>
                     <span className="mt-1 flex flex-row justify-start space-x-2">
                       <Icon
