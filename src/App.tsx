@@ -1,13 +1,13 @@
 import "./App.css";
 import { Icon } from "@iconify/react";
-import ColbyImg from "./assets/colby.png"
-import TerraconImg from "./assets/terracon.png"
+import ColbyImg from "./assets/colby.png";
+import TerraconImg from "./assets/terracon.png";
 
 function App() {
   return (
     <>
       <div className="overflow-auto overscroll-y-none">
-        <div className="flex justify-center bg-[#242424]">
+        <div className="flex justify-center bg-[#242938]">
           <div className="min-h-screen w-3/4 sm:w-3/5 flex flex-col text-white">
             <nav className="p-6 md:pr-10 font-semibold text-base flex justify-center sm:text-lg md:text-xl lg:justify-end">
               <ul className="flex md:space-x-4 ">
@@ -83,34 +83,32 @@ function App() {
               </h2>
               <div className="text-xl space-y-4">
                 <p>
+                  <img
+                    className="rounded inline-block mr-2"
+                    width={24}
+                    height={24}
+                    src={TerraconImg}
+                  />
                   <a
                     href="https://www.terracon.com/"
                     target="_blank"
                     className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                   >
-                    <span>
-                      <img
-                        className="rounded inline-block mr-2"
-                        width={24}
-                        height={24}
-                        src={TerraconImg}
-                      />
-                    </span>
                     Terracon - Software Engineer Intern (Summer 2023)
                   </a>
                 </p>
                 <p>
+                  <img
+                    className="inline-block mr-2"
+                    width={24}
+                    height={24}
+                    src={ColbyImg}
+                  />
                   <a
                     href="https://www.cs.colby.edu/"
                     target="_blank"
                     className="transition duration-200 underline decoration-transparent hover:decoration-indigo-400 underline-offset-4 decoration-2"
                   >
-                    <img
-                      className="inline-block mr-2"
-                      width={24}
-                      height={24}
-                      src={ColbyImg}
-                    />
                     Colby College - CS Teaching Assistant (Fall 2023 - Present)
                   </a>
                 </p>
