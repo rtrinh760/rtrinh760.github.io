@@ -66,25 +66,24 @@ function App() {
               </ul>
             </nav>
             <div className="flex flex-col justify-center md:justify-start lg:ml-10 mt-5">
-              <h1 className="font-bold text-2xl md:text-3xl">Richard Trinh</h1>
-              <h2 className="text-lg md:text-xl">
-                <span>CS Student @ Colby College</span>
-              </h2>
-              <div className="my-8">
+              <div className="space-y-8">
+                <div>
+                  <h1 className="font-bold text-2xl md:text-3xl">
+                    Richard Trinh
+                  </h1>
+                  <h2 className="text-lg md:text-xl">
+                    <span>CS Student @ Colby College</span>
+                  </h2>
+                </div>
+                <p className="text-lg">
+                  Hello! I'm a student developer and robot enthusiast studying
+                  Computer Science. I enjoy optimizing online experiences,
+                  learning new technologies, and building cool things with code.
+                </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    Developer/learner/robot-enthusiast looking to bring
-                    efficient experiences to the web.
-                  </p>
-                  <p>
-                    Currently: CS Teaching Assistant at{" "}
-                    <a
-                      href="https://cs.colby.edu/"
-                      target="_blank"
-                      className="bg-[#636363] transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Colby College
-                    </a>
+                    Currently: CS Teaching Assistant for CS231 - Data
+                    Structures and Algorithms
                   </p>
                   <p>
                     Previously: SWE Intern at{" "}
@@ -97,241 +96,241 @@ function App() {
                     </a>
                   </p>
                 </div>
-              </div>
-              <h2 className="font-bold mb-8 text-xl">Projects</h2>
-              <div className="text-lg space-y-2 pb-10">
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/scholar_ninja"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Scholar Ninja - Personalized scholarship finder app
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:react-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:flask-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white" }}
-                        />
-                        <Icon
-                          icon="logos:firebase"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/vidsnap"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Vidsnap - AI video summarizer
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:nextjs-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:react-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white" }}
-                        />
-                        <Icon
-                          icon="skill-icons:typescript"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/scholarai"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      ScholarAI - PDF document search
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:nextjs-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:react-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white" }}
-                        />
-                        <Icon
-                          icon="skill-icons:typescript"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:postgresql-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/atoll-segmentation"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Coral Reef Annotator - Atoll segmentation ML model
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:opencv-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:tensorflow-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white" }}
-                        />
-                        <Icon
-                          icon="devicon:pandas"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white " }}
-                        />
-                        <Icon
-                          icon="skill-icons:python-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/pycoMouse"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Micromouse - Maze-traversing robotic mouse
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:raspberrypi-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:python-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Pathfinding Visualizer - Grid simulation of traversal
-                      algorithms
-                    </a>
-                    <span className="ml-2 my-1 inline-block align-middle">
-                      <div className="flex space-x-2">
-                        <Icon
-                          icon="skill-icons:react-dark"
-                          inline={true}
-                          width={24}
-                          height={24}
-                        />
-                        <Icon
-                          icon="skill-icons:typescript"
-                          inline={true}
-                          width={24}
-                          height={24}
-                          style={{ color: "white" }}
-                        />
-                      </div>
-                    </span>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    <a
-                      href="https://github.com/rtrinh760/sudoku-solver"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                    >
-                      Sudoku Solver - Simulation of backtracking algorithms
+                <h2 className="font-bold text-xl">Projects</h2>
+                <div className="text-lg space-y-2 pb-10">
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/scholar_ninja"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Scholar Ninja - Personalized scholarship finder app
+                      </a>
                       <span className="ml-2 my-1 inline-block align-middle">
                         <div className="flex space-x-2">
                           <Icon
-                            icon="skill-icons:java-dark"
+                            icon="skill-icons:react-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:flask-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white" }}
+                          />
+                          <Icon
+                            icon="logos:firebase"
                             inline={true}
                             width={24}
                             height={24}
                           />
                         </div>
                       </span>
-                    </a>
-                  </p>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/vidsnap"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Vidsnap - AI video summarizer
+                      </a>
+                      <span className="ml-2 my-1 inline-block align-middle">
+                        <div className="flex space-x-2">
+                          <Icon
+                            icon="skill-icons:nextjs-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:react-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white" }}
+                          />
+                          <Icon
+                            icon="skill-icons:typescript"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/scholarai"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        ScholarAI - PDF document search
+                      </a>
+                      <span className="ml-2 my-1 inline-block align-middle">
+                        <div className="flex space-x-2">
+                          <Icon
+                            icon="skill-icons:nextjs-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:react-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white" }}
+                          />
+                          <Icon
+                            icon="skill-icons:typescript"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:postgresql-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/atoll-segmentation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Coral Reef Annotator - Atoll segmentation ML model
+                      </a>
+                      <span className="ml-2 my-1 inline-block align-middle">
+                        <div className="flex space-x-2">
+                          <Icon
+                            icon="skill-icons:opencv-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:tensorflow-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white" }}
+                          />
+                          <Icon
+                            icon="devicon:pandas"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white " }}
+                          />
+                          <Icon
+                            icon="skill-icons:python-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/pycoMouse"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Micromouse - Maze-traversing robotic mouse
+                      </a>
+                      <span className="ml-2 my-1 inline-block align-middle">
+                        <div className="flex space-x-2">
+                          <Icon
+                            icon="skill-icons:raspberrypi-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:python-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                        </div>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://rtrinh760.github.io/pathfinding-visualizer/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Pathfinding Visualizer - Grid simulation of traversal
+                        algorithms
+                      </a>
+                      <span className="ml-2 my-1 inline-block align-middle">
+                        <div className="flex space-x-2">
+                          <Icon
+                            icon="skill-icons:react-dark"
+                            inline={true}
+                            width={24}
+                            height={24}
+                          />
+                          <Icon
+                            icon="skill-icons:typescript"
+                            inline={true}
+                            width={24}
+                            height={24}
+                            style={{ color: "white" }}
+                          />
+                        </div>
+                      </span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <a
+                        href="https://github.com/rtrinh760/sudoku-solver"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      >
+                        Sudoku Solver - Simulation of backtracking algorithms
+                        <span className="ml-2 my-1 inline-block align-middle">
+                          <div className="flex space-x-2">
+                            <Icon
+                              icon="skill-icons:java-dark"
+                              inline={true}
+                              width={24}
+                              height={24}
+                            />
+                          </div>
+                        </span>
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
