@@ -7,7 +7,7 @@ function App() {
       <div className="overflow-auto overscroll-y-none">
         <div className="flex justify-center bg-[#1E1E1E]">
           <div className="min-h-screen w-3/5 flex flex-col text-white">
-            <nav className="p-6 md:pr-10 font-semibold text-base flex justify-center sm:text-lg md:text-xl lg:justify-end">
+            <nav className="p-6 md:pr-10 font-semibold text-base flex justify-center sm:text-md md:text-lg lg:justify-end">
               <ul className="flex space-x-4">
                 <li className="px-1 py-4 sm:px-4">
                   <a
@@ -66,40 +66,40 @@ function App() {
               </ul>
             </nav>
             <div className="flex flex-col justify-center md:justify-start lg:ml-10 mt-5">
-              <h1 className="font-bold text-3xl md:text-4xl">Richard Trinh</h1>
-              <h2 className="text-xl md:text-2xl">
-                <span className="bg-[#636363] xs:bg-transparent xs:highlight xs:highlight-[#636363]">
-                  CS Student @ Colby College
-                </span>
+              <h1 className="font-bold text-2xl md:text-3xl">Richard Trinh</h1>
+              <h2 className="text-lg md:text-xl">
+                <span>CS Student @ Colby College</span>
               </h2>
-              <p className="mt-4 mb-8 text-xl">
-                Developer/learner/robot-enthusiast looking to bring efficient
-                experiences to the web.
-              </p>
-              <div className="text-xl space-y-2">
-                <p>
-                  Currently: CS Teaching Assistant at{" "}
-                  <a
-                    href="https://cs.colby.edu/"
-                    target="_blank"
-                    className="bg-[#636363] transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                  >
-                    Colby College
-                  </a>
-                </p>
-                <p>
-                  Previously: SWE Intern at{" "}
-                  <a
-                    href="https://www.terracon.com/"
-                    target="_blank"
-                    className="bg-[#636363] transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                  >
-                    Terracon
-                  </a>
-                </p>
+              <div className="my-8">
+                <div className="text-lg space-y-2">
+                  <p>
+                    Developer/learner/robot-enthusiast looking to bring
+                    efficient experiences to the web.
+                  </p>
+                  <p>
+                    Currently: CS Teaching Assistant at{" "}
+                    <a
+                      href="https://cs.colby.edu/"
+                      target="_blank"
+                      className="bg-[#636363] transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Colby College
+                    </a>
+                  </p>
+                  <p>
+                    Previously: SWE Intern at{" "}
+                    <a
+                      href="https://www.terracon.com/"
+                      target="_blank"
+                      className="bg-[#636363] transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Terracon
+                    </a>
+                  </p>
+                </div>
               </div>
-              <h2 className="font-bold my-8 text-2xl">Projects</h2>
-              <div className="text-xl space-y-2 pb-10">
+              <h2 className="font-bold mb-8 text-xl">Projects</h2>
+              <div className="text-lg space-y-2 pb-10">
                 <div>
                   <p>
                     <a
