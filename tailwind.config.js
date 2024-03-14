@@ -1,4 +1,4 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+import defaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -10,5 +10,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [require("tailwindcss-highlights")],
+  plugins: [],
 };
