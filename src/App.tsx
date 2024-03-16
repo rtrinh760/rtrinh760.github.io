@@ -76,7 +76,7 @@ function App() {
                   </h2>
                 </div>
                 <p className="text-lg">
-                  Hello! I'm a student developer and robot enthusiast studying
+                  Hello! I'm a student developer (and robot enthusiast) studying
                   Computer Science. I enjoy optimizing online experiences,
                   learning new technologies, and building cool things with code.
                 </p>
