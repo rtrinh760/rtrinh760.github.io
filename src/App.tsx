@@ -82,7 +82,7 @@ function App() {
                 </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    Currently: CS Teaching Assistant for CS231 - Data
+                    Currently: Teaching Assistant for CS231 - Data
                     Structures and Algorithms
                   </p>
                   <p>
