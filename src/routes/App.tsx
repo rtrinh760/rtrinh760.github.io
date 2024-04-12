@@ -1,4 +1,3 @@
-import "./App.css";
 import { Icon } from "@iconify/react";
 
 function App() {
@@ -82,8 +81,8 @@ function App() {
                 </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    Currently: Teaching Assistant for CS231 - Data
-                    Structures and Algorithms
+                    Currently: Teaching Assistant for CS231 - Data Structures
+                    and Algorithms
                   </p>
                   <p>
                     Previously: SWE Intern at{" "}
@@ -287,8 +286,8 @@ function App() {
                         rel="noopener noreferrer"
                         className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                       >
-                        Pathfinding Visualizer - Grid simulation of traversal
-                        algorithms
+                        Graph Algorithm Visualizer - Grid simulation of DFS,
+                        BFS, A*
                       </a>
                       <span className="ml-2 my-1 inline-block align-middle">
                         <div className="flex space-x-2">
@@ -307,28 +306,6 @@ function App() {
                           />
                         </div>
                       </span>
-                    </p>
-                  </div>
-                  <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/sudoku-solver"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transition duration-200 underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Sudoku Solver - Simulation of backtracking algorithms
-                        <span className="ml-2 my-1 inline-block align-middle">
-                          <div className="flex space-x-2">
-                            <Icon
-                              icon="skill-icons:java-dark"
-                              inline={true}
-                              width={24}
-                              height={24}
-                            />
-                          </div>
-                        </span>
-                      </a>
                     </p>
                   </div>
                 </div>
