@@ -105,7 +105,7 @@ function App() {
                 </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    I am currently a Teaching Assistant at{" "}
+                    I'm currently a Teaching Assistant at{" "}
                     <a
                       href="https://www.cs.colby.edu/"
                       target="_blank"
