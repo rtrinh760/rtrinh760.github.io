@@ -121,7 +121,7 @@ function App() {
                     >
                       Terracon
                     </a>
-                    , primarily focused on automation and data processing.
+                    , primarily focused on automation and data processing for finance and HR systems.
                   </p>
                 </div>
                 <h2 className="font-bold text-xl">Projects</h2>
