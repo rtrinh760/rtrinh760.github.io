@@ -113,7 +113,7 @@ function App() {
                     >
                       Garmin
                     </a>
-                    . In the past, I've worked as a Software Engineer Intern at{" "}
+                    . In the past, I've worked at{" "}
                     <a
                       href="https://www.ntst.com/"
                       target="_blank"
