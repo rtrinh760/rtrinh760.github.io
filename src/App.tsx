@@ -105,15 +105,23 @@ function App() {
                 </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    I'm currently a Teaching Assistant at{" "}
+                    I'm currently a Software Engineering Intern at {" "}
                     <a
-                      href="https://www.cs.colby.edu/"
+                      href="https://www.garmin.com/"
                       target="_blank"
                       className="bg-[#636363] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
-                      Colby College
+                      Garmin
                     </a>
                     . In the past, I've worked as a Software Engineer Intern at{" "}
+                    <a
+                      href="https://www.ntst.com/"
+                      target="_blank"
+                      className="bg-[#636363] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Netsmart
+                    </a>
+                    {" "}and{" "}
                     <a
                       href="https://www.terracon.com/"
                       target="_blank"
@@ -121,7 +129,7 @@ function App() {
                     >
                       Terracon
                     </a>
-                    , primarily focused on automation and data processing for finance and HR systems.
+                    , where my work primarily focused on full-stack/backend development.
                   </p>
                 </div>
                 <h2 className="font-bold text-xl">Projects</h2>
@@ -134,7 +142,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                       >
-                        Scholar Ninja - Personalized scholarship finder app
+                        Scholar Ninja - Scholarship finder app
                       </a>
                     </p>
                   </div>
@@ -170,7 +178,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                       >
-                        Coral Reef Annotator - Atoll segmentation ML model
+                        Reef Annotator - Atoll segmentation ML model
                       </a>
                     </p>
                   </div>
