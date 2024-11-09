@@ -99,7 +99,7 @@ function App() {
                   </h2>
                 </div>
                 <p className="text-lg">
-                  I'm a student developer (and robot enthusiast) studying
+                  I'm a student developer studying
                   Computer Science. I enjoy optimizing online experiences,
                   learning new technologies, and building cool things with code.
                 </p>
