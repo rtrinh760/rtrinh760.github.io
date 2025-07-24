@@ -99,113 +99,99 @@ function App() {
                   </h2>
                 </div>
                 <p className="text-lg">
-                  I'm a student developer studying
-                  Computer Science. I enjoy optimizing online experiences,
-                  learning new technologies, and building cool things with code.
+                  I'm a student developer studying Computer Science. I enjoy
+                  optimizing online experiences, learning new technologies, and
+                  building cool things with code.
                 </p>
                 <div className="text-lg space-y-2">
                   <p>
-                    I'm currently a Software Engineering Intern at {" "}
+                    I'm currently a Software Engineer Intern at{" "}
                     <a
-                      href="https://www.garmin.com/"
+                      href="https://www.hashicorp.com/"
                       target="_blank"
-                      className="bg-[#636363] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
-                      Garmin
+                      Hashicorp
                     </a>
                     . In the past, I've worked at{" "}
                     <a
+                      href="https://www.garmin.com/"
+                      target="_blank"
+                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Garmin
+                    </a>{", "}
+                    <a
                       href="https://www.ntst.com/"
                       target="_blank"
-                      className="bg-[#636363] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Netsmart
-                    </a>
-                    {" "}and{" "}
+                    </a>{", "}
+                    and{" "}
                     <a
                       href="https://www.terracon.com/"
                       target="_blank"
-                      className="bg-[#636363] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Terracon
                     </a>
-                    , where my work primarily focused on full-stack/backend development.
+                    , where my work primarily focused on full-stack/backend
+                    development.
                   </p>
                 </div>
                 <h2 className="font-bold text-xl">Projects</h2>
-                <div className="text-lg space-y-2 pb-10">
+                <div className="text-lg space-y-3 pb-10">
                   <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/scholar_ninja"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Scholar Ninja - Scholarship finder app
-                      </a>
-                    </p>
+                    <a
+                      href="https://github.com/rtrinh760/scholar_ninja"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Scholar Ninja - Scholarship finder app
+                    </a>
                   </div>
                   <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/vidsnap"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Vidsnap - AI video summarizer
-                      </a>
-                    </p>
+                    <a
+                      href="https://github.com/rtrinh760/vidsnap"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Vidsnap - AI video summarizer
+                    </a>
                   </div>
                   <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/scholarai"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        ScholarAI - PDF document search
-                      </a>
-                    </p>
+                    <a
+                      href="https://github.com/rtrinh760/scholarai"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      ScholarAI - PDF document search
+                    </a>
                   </div>
                   <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/atoll-segmentation"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Reef Annotator - Atoll segmentation ML model
-                      </a>
-                    </p>
+                    <a
+                      href="https://github.com/rtrinh760/atoll-segmentation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Reef Annotator - Atoll segmentation ML model
+                    </a>
                   </div>
                   <div>
-                    <p>
-                      <a
-                        href="https://github.com/rtrinh760/pycoMouse"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Micromouse - Maze-traversing robotic mouse
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <p>
-                      <a
-                        href="https://rtrinh760.github.io/pathfinding-visualizer/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
-                      >
-                        Graph Algorithm Visualizer - Grid simulation of DFS,
-                        BFS, A*
-                      </a>
-                    </p>
+                    <a
+                      href="https://rtrinh760.github.io/pathfinding-visualizer/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Graph Algorithm Visualizer - Grid simulation of DFS, BFS,
+                      A*
+                    </a>
                   </div>
                 </div>
               </div>
