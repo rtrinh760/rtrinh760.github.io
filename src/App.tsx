@@ -109,7 +109,7 @@ function App() {
                     <a
                       href="https://www.hashicorp.com/"
                       target="_blank"
-                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#a08be0] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Hashicorp
                     </a>
@@ -117,14 +117,14 @@ function App() {
                     <a
                       href="https://www.garmin.com/"
                       target="_blank"
-                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#a08be0] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Garmin
                     </a>{", "}
                     <a
                       href="https://www.ntst.com/"
                       target="_blank"
-                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#a08be0] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Netsmart
                     </a>{", "}
@@ -132,7 +132,7 @@ function App() {
                     <a
                       href="https://www.terracon.com/"
                       target="_blank"
-                      className="bg-[#9a3de2] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                      className="bg-[#a08be0] underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
                     >
                       Terracon
                     </a>
@@ -142,6 +142,16 @@ function App() {
                 </div>
                 <h2 className="font-bold text-xl">Projects</h2>
                 <div className="text-lg space-y-3 pb-10">
+                <div>
+                    <a
+                      href="https://github.com/rtrinh760/arcaeacharts"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline decoration-transparent hover:decoration-white underline-offset-2 decoration-2"
+                    >
+                      Arcaea Charts - Chart info and practice tool
+                    </a>
+                  </div>
                   <div>
                     <a
                       href="https://github.com/rtrinh760/scholar_ninja"
